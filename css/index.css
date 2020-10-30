@@ -48,12 +48,14 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid red;
     
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden; 
 }
 
 h1, h2, h3, h4, h5 {
@@ -84,8 +86,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px; 
     font-size: 1.2rem; 
-    margin-top: 4%;
+    margin-top: 2%;
     margin-left: 2%;
+    word-spacing: 5px;
 }
 
 .middle-content {
@@ -124,6 +127,7 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    font-size: 1.2rem; 
 }
 
 .bottom-content .text-container:last-child {
@@ -233,6 +237,37 @@ nav div.item{
 nav div.logo {
     margin-left: 8%;
 }
-footer div.end {
-    margin-right: -20%;
+.aboutImg {
+    background-image: url(/img/jumbo-about.png);
+    width: 75%;
+    height:25vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 50% ;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 14px;
+    
+}
+.aboutTop .about {
+display:flex;
+   flex-wrap: wrap;
+   justify-content:center ;
+   margin: 0 auto;
+}
+.aboutTop div.aboutBox {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding:4%;
+    margin-right: 5%;
+}
+.aboutHeader {
+    margin-top: 2%;
 }
